@@ -1,0 +1,16 @@
+Disclaimer: This content is for educational cybersecurity awareness only.
+It does not constitute official or legal policy advice.
+
+Title: Personal Data Breaches – Reporting and Timing
+Citation: (ICO, 2024)
+URL: https://ico.org.uk/for-organisations/report-a-breach/personal-data-breaches-a-guide/
+
+Summary:
+Under UK GDPR, a personal data breach involves accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data. {cite} requires controllers to assess risk to individuals’ rights and freedoms and, if risk is likely, notify the ICO without undue delay and within 72 hours where feasible. Notifications must describe the nature, scope, likely consequences, and measures taken. Maintain an internal breach log and follow escalation procedures in your incident plan.
+
+Tags: gdpr,breach,reporting,privacy,uk
+Audience: Compliance, IT security
+
+Reflective prompts:
+- What would you do first in this situation, and why?
+- Which control or policy would most effectively reduce this risk in your context?

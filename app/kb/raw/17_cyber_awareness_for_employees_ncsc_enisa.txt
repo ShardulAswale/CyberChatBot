@@ -1,0 +1,16 @@
+Disclaimer: This content is for educational cybersecurity awareness only.
+It does not constitute official or legal policy advice.
+
+Title: Cyber Awareness for Employees
+Citation: (NCSC, 2024; ENISA, 2024)
+URL: https://www.ncsc.gov.uk/guidance/cyber-security-training-for-staff
+
+Summary:
+Effective awareness programmes combine micro‑learning, simulations, policy nudges, and just‑in‑time education. {cite} recommends embedding training in onboarding, communicating simple reporting routes, and measuring outcomes (e.g., reporting rates, simulation improvement). Use positive reinforcement over blame to build a strong security culture. Tailor content to roles (finance, HR, IT) and keep messages short, relevant, and scenario‑based.
+
+Tags: awareness,training,culture,behaviour,uk,eu
+Audience: All employees
+
+Reflective prompts:
+- What would you do first in this situation, and why?
+- Which control or policy would most effectively reduce this risk in your context?

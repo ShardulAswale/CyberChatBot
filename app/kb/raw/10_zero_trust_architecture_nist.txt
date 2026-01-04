@@ -1,0 +1,16 @@
+Disclaimer: This content is for educational cybersecurity awareness only.
+It does not constitute official or legal policy advice.
+
+Title: Zero Trust Architecture – Principles
+Citation: (NIST, 2020)
+URL: https://csrc.nist.gov/publications/detail/sp/800-207/final
+
+Summary:
+Zero Trust assumes no implicit trust based on network location. {cite} centres on continuous verification, least privilege, and assume‑breach thinking. Implement strong identity, device health checks, context‑aware access policies, micro‑segmentation, and continuous monitoring. Start with high‑value data flows, define policy decision points, and measure success by reducing attack paths and blast radius.
+
+Tags: zero_trust,access_control,segmentation,identity
+Audience: IT architects, Security engineers
+
+Reflective prompts:
+- What would you do first in this situation, and why?
+- Which control or policy would most effectively reduce this risk in your context?

@@ -1,0 +1,16 @@
+Disclaimer: This content is for educational cybersecurity awareness only.
+It does not constitute official or legal policy advice.
+
+Title: Secure Disposal and Retention
+Citation: (ICO, 2024)
+URL: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/storage-limitation/
+
+Summary:
+The storage limitation principle requires keeping personal data no longer than necessary. {cite} recommends defining retention schedules, implementing secure deletion and destruction processes, and documenting decisions. For paper, use secure bins and cross‑cut shredding; for devices, use certified wiping or physical destruction with records of disposal.
+
+Tags: retention,disposal,gdpr,records,uk
+Audience: Records managers, All employees
+
+Reflective prompts:
+- What would you do first in this situation, and why?
+- Which control or policy would most effectively reduce this risk in your context?

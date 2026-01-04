@@ -1,0 +1,1673 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated_on": "2025-12-19",
+    "levels": [
+      "level_1",
+      "level_2",
+      "level_3"
+    ],
+    "modules": 8,
+    "questions_per_module_per_level": 5,
+    "type": "mcq_single_correct",
+    "display_rule": "Show 'info' before each question"
+  },
+  "modules": [
+    {
+      "module_id": "M1",
+      "module_name": "Cybersecurity Fundamentals",
+      "levels": {
+        "level_1": [
+          {
+            "id": "M1-L1-Q1",
+            "info": "Cybersecurity protects systems, networks, and data from unauthorised access, disruption, or damage.",
+            "question": "What is the main objective of cybersecurity?",
+            "options": [
+              "Improving internet speed",
+              "Protecting systems and data from attacks",
+              "Replacing IT staff",
+              "Stopping all software updates"
+            ],
+            "correct_answer": "Protecting systems and data from attacks",
+            "explanation": "Cybersecurity is primarily about protecting digital assets against threats."
+          },
+          {
+            "id": "M1-L1-Q2",
+            "info": "A threat is something that could cause harm. A vulnerability is a weakness that can be exploited.",
+            "question": "When does a cybersecurity risk typically exist?",
+            "options": [
+              "When a threat exploits a vulnerability",
+              "When a password is long",
+              "When a firewall is installed",
+              "When users work remotely"
+            ],
+            "correct_answer": "When a threat exploits a vulnerability",
+            "explanation": "Risk arises when a threat can exploit a weakness to cause impact."
+          },
+          {
+            "id": "M1-L1-Q3",
+            "info": "Confidentiality ensures information is not disclosed to unauthorised people.",
+            "question": "Which principle focuses on preventing unauthorised access to data?",
+            "options": [
+              "Availability",
+              "Integrity",
+              "Confidentiality",
+              "Redundancy"
+            ],
+            "correct_answer": "Confidentiality",
+            "explanation": "Confidentiality is about restricting access to authorised parties only."
+          },
+          {
+            "id": "M1-L1-Q4",
+            "info": "Integrity means information remains accurate and is not altered without permission.",
+            "question": "Which principle is about ensuring data is not changed without authorisation?",
+            "options": [
+              "Confidentiality",
+              "Integrity",
+              "Availability",
+              "Obfuscation"
+            ],
+            "correct_answer": "Integrity",
+            "explanation": "Integrity protects against unauthorised modification or tampering."
+          },
+          {
+            "id": "M1-L1-Q5",
+            "info": "Availability ensures systems and data are accessible when needed, including during outages or attacks.",
+            "question": "Which concept focuses on keeping services accessible to authorised users?",
+            "options": [
+              "Integrity",
+              "Availability",
+              "Confidentiality",
+              "Non-repudiation"
+            ],
+            "correct_answer": "Availability",
+            "explanation": "Availability is about uptime and timely access to systems and information."
+          }
+        ],
+        "level_2": [
+          {
+            "id": "M1-L2-Q1",
+            "info": "Attack surface includes all the places an attacker could try to enter or extract data (e.g., open ports, exposed services, weak accounts).",
+            "question": "Which change most likely increases an organisation’s attack surface?",
+            "options": [
+              "Disabling unused services",
+              "Exposing unnecessary network ports",
+              "Applying security patches",
+              "Enforcing MFA"
+            ],
+            "correct_answer": "Exposing unnecessary network ports",
+            "explanation": "More exposed services/ports create more opportunities for attackers."
+          },
+          {
+            "id": "M1-L2-Q2",
+            "info": "Defence in depth uses multiple layers of controls so a single failure does not lead to compromise.",
+            "question": "Why is defence in depth considered a good security strategy?",
+            "options": [
+              "It eliminates all threats",
+              "It reduces reliance on a single control",
+              "It removes the need for monitoring",
+              "It replaces incident response"
+            ],
+            "correct_answer": "It reduces reliance on a single control",
+            "explanation": "Layered controls make it harder for attackers to succeed if one control fails."
+          },
+          {
+            "id": "M1-L2-Q3",
+            "info": "Least privilege means users and systems get only the access needed to do their job, nothing more.",
+            "question": "What is the main benefit of applying least privilege?",
+            "options": [
+              "Faster internet",
+              "Reduced damage if an account is compromised",
+              "No need for passwords",
+              "Automatic compliance certification"
+            ],
+            "correct_answer": "Reduced damage if an account is compromised",
+            "explanation": "Limiting access reduces the blast radius of misuse or compromise."
+          },
+          {
+            "id": "M1-L2-Q4",
+            "info": "Security controls can be administrative (policies), technical (tools), or physical (locks).",
+            "question": "Which option is a technical security control?",
+            "options": [
+              "Security awareness training",
+              "Firewall",
+              "Acceptable use policy",
+              "Visitor sign-in sheet"
+            ],
+            "correct_answer": "Firewall",
+            "explanation": "Firewalls are technical controls that filter network traffic."
+          },
+          {
+            "id": "M1-L2-Q5",
+            "info": "A risk assessment identifies threats, vulnerabilities, and impacts so controls can be prioritised.",
+            "question": "What is the primary purpose of a risk assessment?",
+            "options": [
+              "To remove all risks permanently",
+              "To identify and prioritise risks for treatment",
+              "To increase user permissions",
+              "To replace the IT department"
+            ],
+            "correct_answer": "To identify and prioritise risks for treatment",
+            "explanation": "Risk assessment helps decide what to mitigate, transfer, accept, or avoid."
+          }
+        ],
+        "level_3": [
+          {
+            "id": "M1-L3-Q1",
+            "info": "Risk is commonly considered as likelihood × impact. Even low-likelihood events can matter if the impact is severe.",
+            "question": "How should an organisation treat a low-likelihood but very high-impact risk?",
+            "options": [
+              "Ignore it",
+              "Consider mitigation due to impact",
+              "Accept it automatically",
+              "Only document it after an incident"
+            ],
+            "correct_answer": "Consider mitigation due to impact",
+            "explanation": "High-impact scenarios often warrant controls even if unlikely."
+          },
+          {
+            "id": "M1-L3-Q2",
+            "info": "Some controls reduce likelihood (prevent), others reduce impact (recover), and some do both.",
+            "question": "Which control primarily reduces impact rather than likelihood?",
+            "options": [
+              "Firewall",
+              "Phishing training",
+              "Regular backups with restore testing",
+              "Password complexity rules"
+            ],
+            "correct_answer": "Regular backups with restore testing",
+            "explanation": "Backups reduce impact by enabling recovery after ransomware or data loss."
+          },
+          {
+            "id": "M1-L3-Q3",
+            "info": "Security governance defines accountability, decision-making, and oversight (e.g., policy approval and risk acceptance).",
+            "question": "Who typically has accountability to approve and accept major security risks?",
+            "options": [
+              "Any employee",
+              "Only interns",
+              "Senior management / risk owners",
+              "External auditors"
+            ],
+            "correct_answer": "Senior management / risk owners",
+            "explanation": "Risk acceptance decisions should be made by accountable business owners."
+          },
+          {
+            "id": "M1-L3-Q4",
+            "info": "Security standards and regulations can require specific controls, reporting, and evidence of compliance.",
+            "question": "Why is compliance management important for organisations?",
+            "options": [
+              "It replaces security monitoring",
+              "It reduces the need for incident response",
+              "It helps meet legal/contractual obligations",
+              "It guarantees zero breaches"
+            ],
+            "correct_answer": "It helps meet legal/contractual obligations",
+            "explanation": "Compliance supports legal, contractual, and industry requirements (but does not guarantee no incidents)."
+          },
+          {
+            "id": "M1-L3-Q5",
+            "info": "Threats evolve (new tactics, vulnerabilities, and technologies). Controls can become outdated over time.",
+            "question": "Why should security controls and policies be reviewed regularly?",
+            "options": [
+              "Because threats and environments change",
+              "Because passwords become shorter",
+              "Because compliance is optional",
+              "Because encryption is no longer needed"
+            ],
+            "correct_answer": "Because threats and environments change",
+            "explanation": "Continuous improvement keeps controls effective as risks evolve."
+          }
+        ]
+      }
+    },
+    {
+      "module_id": "M2",
+      "module_name": "Phishing and Social Engineering",
+      "levels": {
+        "level_1": [
+          {
+            "id": "M2-L1-Q1",
+            "info": "Phishing is a social engineering technique where attackers impersonate trusted entities to steal credentials or money.",
+            "question": "Which sign is most strongly associated with a phishing message?",
+            "options": [
+              "A friendly greeting",
+              "Urgent request for passwords or one-time codes",
+              "Correct spelling",
+              "Sent during business hours"
+            ],
+            "correct_answer": "Urgent request for passwords or one-time codes",
+            "explanation": "Attackers often create urgency and ask for sensitive information."
+          },
+          {
+            "id": "M2-L1-Q2",
+            "info": "Legitimate organisations rarely ask for passwords, OTPs, or bank details via email or chat.",
+            "question": "What is the safest action if a message asks you to “verify your account” by clicking a link?",
+            "options": [
+              "Click the link immediately",
+              "Reply with your password",
+              "Independently verify using official channels",
+              "Forward it to everyone"
+            ],
+            "correct_answer": "Independently verify using official channels",
+            "explanation": "Use trusted contact details or official websites, not the link in the message."
+          },
+          {
+            "id": "M2-L1-Q3",
+            "info": "Social engineering relies on psychological triggers like fear, urgency, curiosity, and authority.",
+            "question": "Which trigger is commonly used in social engineering?",
+            "options": [
+              "Weather updates",
+              "Authority (e.g., “CEO request”)",
+              "Software licensing",
+              "Screen brightness"
+            ],
+            "correct_answer": "Authority (e.g., “CEO request”)",
+            "explanation": "Impersonating leaders or IT support is a frequent tactic."
+          },
+          {
+            "id": "M2-L1-Q4",
+            "info": "A suspicious sender address may look similar to the real domain (e.g., rnicrosoft.com instead of microsoft.com).",
+            "question": "What should you check first to validate an email sender?",
+            "options": [
+              "Font size",
+              "Sender domain spelling and address details",
+              "Number of attachments",
+              "Email background colour"
+            ],
+            "correct_answer": "Sender domain spelling and address details",
+            "explanation": "Small changes in domains are common in phishing."
+          },
+          {
+            "id": "M2-L1-Q5",
+            "info": "Attachments can contain malware (e.g., macro-enabled documents).",
+            "question": "Which attachment type is generally higher risk if unexpected?",
+            "options": [
+              "A plain .txt file",
+              "A macro-enabled Office document",
+              "A .jpg image",
+              "A calendar invite from HR"
+            ],
+            "correct_answer": "A macro-enabled Office document",
+            "explanation": "Macros can execute code that downloads or runs malware."
+          }
+        ],
+        "level_2": [
+          {
+            "id": "M2-L2-Q1",
+            "info": "Spear phishing is targeted phishing using personal details to appear legitimate.",
+            "question": "Which example best describes spear phishing?",
+            "options": [
+              "Generic email sent to millions",
+              "Targeted email referencing your project and manager",
+              "Random spam about lottery winnings",
+              "Automated calendar reminders"
+            ],
+            "correct_answer": "Targeted email referencing your project and manager",
+            "explanation": "Spear phishing uses personal/contextual details to increase credibility."
+          },
+          {
+            "id": "M2-L2-Q2",
+            "info": "Business Email Compromise (BEC) often targets payments by impersonating executives or suppliers.",
+            "question": "What is a strong control against BEC payment fraud?",
+            "options": [
+              "Pay immediately to avoid delays",
+              "Verify payment changes via a known phone number",
+              "Allow any email-based bank detail changes",
+              "Disable approvals"
+            ],
+            "correct_answer": "Verify payment changes via a known phone number",
+            "explanation": "Out-of-band verification breaks the attacker’s control of the email thread."
+          },
+          {
+            "id": "M2-L2-Q3",
+            "info": "Smishing is phishing via SMS; vishing is phishing via voice calls.",
+            "question": "A caller claims to be IT and requests an MFA code to “fix your account.” What should you do?",
+            "options": [
+              "Share the code to resolve quickly",
+              "Ask them to email you",
+              "Refuse and contact IT via official helpdesk",
+              "Give them your password instead"
+            ],
+            "correct_answer": "Refuse and contact IT via official helpdesk",
+            "explanation": "MFA codes should never be shared; verify via trusted channels."
+          },
+          {
+            "id": "M2-L2-Q4",
+            "info": "URL shorteners and lookalike domains can hide malicious destinations.",
+            "question": "Which is the safest way to check a suspicious link in a message?",
+            "options": [
+              "Click it quickly then close the tab",
+              "Hover/preview the URL and compare domain carefully",
+              "Trust it if it uses HTTPS",
+              "Forward it to friends to test"
+            ],
+            "correct_answer": "Hover/preview the URL and compare domain carefully",
+            "explanation": "HTTPS alone does not mean the site is legitimate; domain identity matters."
+          },
+          {
+            "id": "M2-L2-Q5",
+            "info": "Attackers often use “password reset” prompts to steal credentials.",
+            "question": "Which action is safest if you receive an unexpected password reset notification?",
+            "options": [
+              "Ignore and do nothing",
+              "Click the reset link in the email",
+              "Go directly to the official site/app and check account activity",
+              "Reply asking if it is real"
+            ],
+            "correct_answer": "Go directly to the official site/app and check account activity",
+            "explanation": "Use the official login route; reset if needed and report suspicious notifications."
+          }
+        ],
+        "level_3": [
+          {
+            "id": "M2-L3-Q1",
+            "info": "Prompted consent scams attempt to trick you into approving MFA prompts you didn’t initiate.",
+            "question": "What is the best response to repeated unexpected MFA push notifications?",
+            "options": [
+              "Approve one to stop alerts",
+              "Ignore and report; change password and review sign-in logs",
+              "Disable MFA permanently",
+              "Restart your phone"
+            ],
+            "correct_answer": "Ignore and report; change password and review sign-in logs",
+            "explanation": "MFA fatigue attacks rely on accidental approval; reporting and account hardening are key."
+          },
+          {
+            "id": "M2-L3-Q2",
+            "info": "Attackers may hijack legitimate email threads (thread hijacking) to insert malicious invoices or links.",
+            "question": "Which indicator best suggests thread hijacking?",
+            "options": [
+              "The email is in an existing thread",
+              "Unexpected request to pay a new bank account",
+              "The email uses polite language",
+              "The email is short"
+            ],
+            "correct_answer": "Unexpected request to pay a new bank account",
+            "explanation": "Changes to payment details in an existing thread are a high-risk indicator."
+          },
+          {
+            "id": "M2-L3-Q3",
+            "info": "Pretexting is creating a believable scenario to obtain information. Need-to-know limits what can be disclosed.",
+            "question": "Why is “need-to-know” important for resisting social engineering?",
+            "options": [
+              "It makes emails longer",
+              "It limits information disclosure even under pressure",
+              "It improves Wi‑Fi speed",
+              "It replaces encryption"
+            ],
+            "correct_answer": "It limits information disclosure even under pressure",
+            "explanation": "Need-to-know reduces the chance persuasion leads to damaging disclosure."
+          },
+          {
+            "id": "M2-L3-Q4",
+            "info": "OAuth consent phishing tricks users into granting a malicious app permissions, which can provide access without a password.",
+            "question": "What is a key risk of approving a malicious OAuth permission request?",
+            "options": [
+              "It only changes your wallpaper",
+              "It can grant persistent access to mail/files without your password",
+              "It improves sign-in security",
+              "It blocks spam"
+            ],
+            "correct_answer": "It can grant persistent access to mail/files without your password",
+            "explanation": "OAuth tokens can give ongoing access until permissions are revoked."
+          },
+          {
+            "id": "M2-L3-Q5",
+            "info": "Quishing (QR phishing) uses QR codes to hide malicious links and bypass some email link scanning.",
+            "question": "What is the safest approach when you receive a QR code requesting login?",
+            "options": [
+              "Scan immediately; it’s faster",
+              "Scan only if it came from an unknown sender",
+              "Treat it like a link: verify source and destination first",
+              "Share it to colleagues to check"
+            ],
+            "correct_answer": "Treat it like a link: verify source and destination first",
+            "explanation": "QR codes encode URLs; apply the same verification as with links."
+          }
+        ]
+      }
+    },
+    {
+      "module_id": "M3",
+      "module_name": "Malware and Endpoint Security",
+      "levels": {
+        "level_1": [
+          {
+            "id": "M3-L1-Q1",
+            "info": "Malware is malicious software such as viruses, ransomware, spyware, and worms.",
+            "question": "What is ransomware designed to do?",
+            "options": [
+              "Speed up the computer",
+              "Encrypt files and demand payment",
+              "Block all emails",
+              "Improve Wi‑Fi signal"
+            ],
+            "correct_answer": "Encrypt files and demand payment",
+            "explanation": "Ransomware encrypts data to extort payment."
+          },
+          {
+            "id": "M3-L1-Q2",
+            "info": "Spyware is designed to secretly monitor activity and capture information.",
+            "question": "What is spyware primarily intended to do?",
+            "options": [
+              "Monitor and steal information secretly",
+              "Update software automatically",
+              "Fix system errors",
+              "Encrypt backups for safety"
+            ],
+            "correct_answer": "Monitor and steal information secretly",
+            "explanation": "Spyware aims to collect data without consent."
+          },
+          {
+            "id": "M3-L1-Q3",
+            "info": "Viruses often attach to files and spread when users open infected content.",
+            "question": "Which behaviour most commonly spreads a file-based virus?",
+            "options": [
+              "Turning off the monitor",
+              "Opening unknown attachments",
+              "Using a strong password",
+              "Locking your screen"
+            ],
+            "correct_answer": "Opening unknown attachments",
+            "explanation": "Opening infected files can execute malicious code."
+          },
+          {
+            "id": "M3-L1-Q4",
+            "info": "Security updates patch known vulnerabilities that attackers exploit.",
+            "question": "Why are software updates important for security?",
+            "options": [
+              "They make devices heavier",
+              "They fix known security flaws",
+              "They disable antivirus",
+              "They remove the need for backups"
+            ],
+            "correct_answer": "They fix known security flaws",
+            "explanation": "Updates frequently contain security patches."
+          },
+          {
+            "id": "M3-L1-Q5",
+            "info": "Endpoint protection includes antivirus/EDR, configuration hardening, and safe user behaviour.",
+            "question": "Which is a common endpoint security control?",
+            "options": [
+              "EDR/antivirus software",
+              "Unrestricted admin rights for all users",
+              "Disabling screen lock",
+              "Sharing accounts"
+            ],
+            "correct_answer": "EDR/antivirus software",
+            "explanation": "Endpoint security tools detect and respond to threats on devices."
+          }
+        ],
+        "level_2": [
+          {
+            "id": "M3-L2-Q1",
+            "info": "A trojan disguises itself as legitimate software to trick users into installing it.",
+            "question": "What best describes a trojan?",
+            "options": [
+              "Self-replicating worm",
+              "Malware hidden inside seemingly legitimate software",
+              "Hardware failure",
+              "A secure backup tool"
+            ],
+            "correct_answer": "Malware hidden inside seemingly legitimate software",
+            "explanation": "Trojans rely on deception rather than self-replication."
+          },
+          {
+            "id": "M3-L2-Q2",
+            "info": "Worms can spread automatically across networks without user action.",
+            "question": "What makes a worm different from many viruses?",
+            "options": [
+              "It cannot spread",
+              "It spreads automatically across networks",
+              "It only affects phones",
+              "It requires a password to run"
+            ],
+            "correct_answer": "It spreads automatically across networks",
+            "explanation": "Worms often exploit network vulnerabilities to propagate."
+          },
+          {
+            "id": "M3-L2-Q3",
+            "info": "Malicious macros can execute code when enabled in documents.",
+            "question": "What is the safest response to a document requesting you to ‘Enable Content’ unexpectedly?",
+            "options": [
+              "Enable macros to view properly",
+              "Disable antivirus and retry",
+              "Do not enable; verify with sender/IT",
+              "Forward to others to confirm"
+            ],
+            "correct_answer": "Do not enable; verify with sender/IT",
+            "explanation": "Unexpected macro prompts are a common malware technique."
+          },
+          {
+            "id": "M3-L2-Q4",
+            "info": "Standard user accounts limit what software can change compared to admin accounts.",
+            "question": "Why is using a standard user account safer day-to-day?",
+            "options": [
+              "It makes the screen brighter",
+              "It limits what malware can change on the system",
+              "It disables encryption",
+              "It prevents logins"
+            ],
+            "correct_answer": "It limits what malware can change on the system",
+            "explanation": "Malware running as admin can make deeper system changes."
+          },
+          {
+            "id": "M3-L2-Q5",
+            "info": "Drive-by downloads can occur via compromised sites or malicious advertising.",
+            "question": "Which practice reduces risk of drive-by infections?",
+            "options": [
+              "Keeping browsers and plugins updated",
+              "Disabling all updates",
+              "Ignoring security warnings",
+              "Using the same password everywhere"
+            ],
+            "correct_answer": "Keeping browsers and plugins updated",
+            "explanation": "Up-to-date software reduces exposure to known exploit chains."
+          }
+        ],
+        "level_3": [
+          {
+            "id": "M3-L3-Q1",
+            "info": "Persistence is how malware maintains access after reboot (e.g., scheduled tasks, services, registry keys).",
+            "question": "Which behaviour is commonly associated with malware persistence?",
+            "options": [
+              "Changing wallpaper",
+              "Creating a scheduled task to run at startup",
+              "Closing tabs",
+              "Turning on airplane mode"
+            ],
+            "correct_answer": "Creating a scheduled task to run at startup",
+            "explanation": "Startup persistence is a common technique."
+          },
+          {
+            "id": "M3-L3-Q2",
+            "info": "Ransomware response prioritises containment to prevent spread.",
+            "question": "What is the best immediate action if you suspect ransomware on your device?",
+            "options": [
+              "Keep working to finish tasks",
+              "Disconnect from the network and report immediately",
+              "Share the ransom note publicly",
+              "Disable backups"
+            ],
+            "correct_answer": "Disconnect from the network and report immediately",
+            "explanation": "Isolation reduces spread and triggers incident response."
+          },
+          {
+            "id": "M3-L3-Q3",
+            "info": "Supply-chain attacks involve compromised vendor software or updates.",
+            "question": "Why are code signing and update integrity checks important?",
+            "options": [
+              "They speed up downloads",
+              "They help verify updates are genuine and untampered",
+              "They remove the need for patching",
+              "They prevent phishing emails"
+            ],
+            "correct_answer": "They help verify updates are genuine and untampered",
+            "explanation": "Signing and integrity checks reduce malicious update risk."
+          },
+          {
+            "id": "M3-L3-Q4",
+            "info": "Fileless malware often runs in memory and uses built-in tools to reduce disk artefacts.",
+            "question": "What is a hallmark of fileless malware?",
+            "options": [
+              "It always uses ZIP files",
+              "It primarily runs in memory using legitimate system tools",
+              "It cannot persist",
+              "It only affects printers"
+            ],
+            "correct_answer": "It primarily runs in memory using legitimate system tools",
+            "explanation": "Memory-resident execution can evade some file-based detection."
+          },
+          {
+            "id": "M3-L3-Q5",
+            "info": "Allowlisting permits only approved executables/scripts to run.",
+            "question": "How does application allowlisting reduce malware risk?",
+            "options": [
+              "It makes passwords stronger",
+              "It blocks execution of unknown/unapproved code",
+              "It encrypts the network",
+              "It prevents phishing links"
+            ],
+            "correct_answer": "It blocks execution of unknown/unapproved code",
+            "explanation": "If only approved software runs, many malware payloads fail."
+          }
+        ]
+      }
+    },
+    {
+      "module_id": "M4",
+      "module_name": "Identity and Access Management",
+      "levels": {
+        "level_1": [
+          {
+            "id": "M4-L1-Q1",
+            "info": "Authentication verifies who you are; authorisation determines what you can access.",
+            "question": "What does authentication do?",
+            "options": [
+              "Grants permissions",
+              "Verifies identity",
+              "Encrypts files",
+              "Monitors network traffic"
+            ],
+            "correct_answer": "Verifies identity",
+            "explanation": "Authentication confirms identity; authorisation grants access."
+          },
+          {
+            "id": "M4-L1-Q2",
+            "info": "Authorisation decides what an authenticated user is allowed to do.",
+            "question": "What is authorisation?",
+            "options": [
+              "Verifying identity",
+              "Deciding access rights and permissions",
+              "Changing passwords",
+              "Scanning for malware"
+            ],
+            "correct_answer": "Deciding access rights and permissions",
+            "explanation": "Authorisation governs access after authentication."
+          },
+          {
+            "id": "M4-L1-Q3",
+            "info": "MFA requires two or more factors: something you know, have, or are.",
+            "question": "Why is MFA safer than a password alone?",
+            "options": [
+              "It removes the need for usernames",
+              "It requires additional proof beyond the password",
+              "It makes passwords shorter",
+              "It disables phishing"
+            ],
+            "correct_answer": "It requires additional proof beyond the password",
+            "explanation": "Even if a password is stolen, the attacker needs another factor."
+          },
+          {
+            "id": "M4-L1-Q4",
+            "info": "Password managers store strong unique passwords and reduce reuse.",
+            "question": "What is a major benefit of a password manager?",
+            "options": [
+              "Encourages password reuse",
+              "Stores passwords in plain text",
+              "Helps create unique strong passwords for each site",
+              "Disables MFA"
+            ],
+            "correct_answer": "Helps create unique strong passwords for each site",
+            "explanation": "Unique passwords limit the impact of credential leaks."
+          },
+          {
+            "id": "M4-L1-Q5",
+            "info": "Account sharing reduces accountability and increases security risk.",
+            "question": "Why should accounts not be shared between employees?",
+            "options": [
+              "It saves time",
+              "It removes audit trails and increases risk",
+              "It improves compliance automatically",
+              "It prevents MFA"
+            ],
+            "correct_answer": "It removes audit trails and increases risk",
+            "explanation": "Shared accounts make it hard to attribute actions and enforce controls."
+          }
+        ],
+        "level_2": [
+          {
+            "id": "M4-L2-Q1",
+            "info": "Least privilege grants only the access required for job tasks.",
+            "question": "Which access model best reflects least privilege?",
+            "options": [
+              "Everyone gets admin rights",
+              "Users get access only to required systems",
+              "Access is granted permanently for convenience",
+              "No access controls are used"
+            ],
+            "correct_answer": "Users get access only to required systems",
+            "explanation": "Least privilege reduces misuse and limits breach impact."
+          },
+          {
+            "id": "M4-L2-Q2",
+            "info": "Privileged accounts can change systems widely and are high-value targets.",
+            "question": "Which is a good practice for privileged access?",
+            "options": [
+              "Use admin accounts for email browsing",
+              "Separate admin accounts and use them only when needed",
+              "Disable logging for admins",
+              "Share admin passwords in chat"
+            ],
+            "correct_answer": "Separate admin accounts and use them only when needed",
+            "explanation": "Separating privileged actions supports auditing and reduces exposure."
+          },
+          {
+            "id": "M4-L2-Q3",
+            "info": "Credential stuffing uses leaked credentials from other sites.",
+            "question": "Which practice most reduces the risk of credential stuffing?",
+            "options": [
+              "Reusing passwords",
+              "Unique passwords for each service",
+              "Using common passwords",
+              "Sharing passwords with coworkers"
+            ],
+            "correct_answer": "Unique passwords for each service",
+            "explanation": "Unique passwords prevent cross-site account takeover."
+          },
+          {
+            "id": "M4-L2-Q4",
+            "info": "Locking devices prevents casual access when unattended.",
+            "question": "What should you do when leaving your workstation unattended?",
+            "options": [
+              "Leave it unlocked",
+              "Disable screen lock",
+              "Lock the screen immediately",
+              "Share your login so others can help"
+            ],
+            "correct_answer": "Lock the screen immediately",
+            "explanation": "This prevents unauthorised access and reduces insider risk."
+          },
+          {
+            "id": "M4-L2-Q5",
+            "info": "Access reviews remove permissions that are no longer needed (access creep).",
+            "question": "Why are periodic access reviews important?",
+            "options": [
+              "They reduce encryption",
+              "They remove unnecessary access and reduce risk",
+              "They increase phishing emails",
+              "They make passwords weaker"
+            ],
+            "correct_answer": "They remove unnecessary access and reduce risk",
+            "explanation": "Reviews help maintain least privilege and compliance."
+          }
+        ],
+        "level_3": [
+          {
+            "id": "M4-L3-Q1",
+            "info": "MFA methods vary in strength. Hardware security keys can resist many phishing attacks.",
+            "question": "Which MFA method is generally most resistant to phishing?",
+            "options": [
+              "SMS codes",
+              "Email codes",
+              "FIDO2 hardware security key",
+              "Security questions"
+            ],
+            "correct_answer": "FIDO2 hardware security key",
+            "explanation": "Hardware keys can validate website origin and resist credential relay."
+          },
+          {
+            "id": "M4-L3-Q2",
+            "info": "SSO centralises authentication and can enforce consistent policies across apps.",
+            "question": "What is a key security benefit of SSO when implemented correctly?",
+            "options": [
+              "Eliminates the need for MFA",
+              "Centralises policy enforcement like MFA and conditional access",
+              "Removes logging",
+              "Prevents all malware"
+            ],
+            "correct_answer": "Centralises policy enforcement like MFA and conditional access",
+            "explanation": "SSO enables consistent authentication controls across services."
+          },
+          {
+            "id": "M4-L3-Q3",
+            "info": "Conditional access adapts controls based on risk signals such as device posture and sign-in location.",
+            "question": "Which scenario is best addressed by conditional access?",
+            "options": [
+              "Blocking all users permanently",
+              "Requiring MFA from a new country/device",
+              "Preventing software updates",
+              "Disabling encryption"
+            ],
+            "correct_answer": "Requiring MFA from a new country/device",
+            "explanation": "Adaptive rules reduce risk from unusual sign-ins."
+          },
+          {
+            "id": "M4-L3-Q4",
+            "info": "PAM supports just-in-time privileged access and session oversight.",
+            "question": "What is a primary purpose of Privileged Access Management (PAM)?",
+            "options": [
+              "Give permanent admin rights",
+              "Reduce and control privileged access exposure",
+              "Remove approvals",
+              "Replace antivirus"
+            ],
+            "correct_answer": "Reduce and control privileged access exposure",
+            "explanation": "PAM limits privileged access duration and improves monitoring."
+          },
+          {
+            "id": "M4-L3-Q5",
+            "info": "Account takeover indicators include unfamiliar devices, impossible travel, and unusual sign-in patterns.",
+            "question": "Which sign most strongly suggests possible account compromise?",
+            "options": [
+              "Login from your usual device",
+              "Failed logins followed by success from a new location",
+              "Changing your profile picture",
+              "Receiving a newsletter"
+            ],
+            "correct_answer": "Failed logins followed by success from a new location",
+            "explanation": "This pattern can indicate password guessing or stolen credentials."
+          }
+        ]
+      }
+    },
+    {
+      "module_id": "M5",
+      "module_name": "Secure Devices and Networks",
+      "levels": {
+        "level_1": [
+          {
+            "id": "M5-L1-Q1",
+            "info": "Public Wi‑Fi networks can be monitored by attackers; encryption and verification help reduce risk.",
+            "question": "What is the safest way to use public Wi‑Fi for work activities?",
+            "options": [
+              "Use it without precautions",
+              "Use a VPN and avoid sensitive tasks if possible",
+              "Disable device firewall",
+              "Share your hotspot password publicly"
+            ],
+            "correct_answer": "Use a VPN and avoid sensitive tasks if possible",
+            "explanation": "A VPN helps encrypt traffic on untrusted networks."
+          },
+          {
+            "id": "M5-L1-Q2",
+            "info": "Routers should be secured to prevent unauthorised access and reduce exposure.",
+            "question": "Which is a good practice for securing a Wi‑Fi router?",
+            "options": [
+              "Keep default admin password",
+              "Disable updates",
+              "Change default admin credentials and update firmware",
+              "Use open (no password) Wi‑Fi"
+            ],
+            "correct_answer": "Change default admin credentials and update firmware",
+            "explanation": "Default credentials and outdated firmware are common attack paths."
+          },
+          {
+            "id": "M5-L1-Q3",
+            "info": "HTTPS encrypts web traffic between your browser and a website.",
+            "question": "What does HTTPS primarily provide?",
+            "options": [
+              "Faster downloads",
+              "Encrypted connection to a website",
+              "Automatic virus removal",
+              "Guaranteed legitimacy of the site"
+            ],
+            "correct_answer": "Encrypted connection to a website",
+            "explanation": "HTTPS encrypts traffic but does not guarantee the site is trustworthy."
+          },
+          {
+            "id": "M5-L1-Q4",
+            "info": "Firewalls filter network traffic based on defined rules.",
+            "question": "What is the purpose of a firewall?",
+            "options": [
+              "To store passwords",
+              "To block/allow network traffic based on rules",
+              "To encrypt hard drives",
+              "To create phishing emails"
+            ],
+            "correct_answer": "To block/allow network traffic based on rules",
+            "explanation": "Firewalls reduce exposure by controlling traffic."
+          },
+          {
+            "id": "M5-L1-Q5",
+            "info": "Screen locks protect devices if unattended or stolen.",
+            "question": "Why is a screen lock important on laptops and phones?",
+            "options": [
+              "It makes the device heavier",
+              "It prevents unauthorised access if unattended or stolen",
+              "It disables encryption",
+              "It stops software updates"
+            ],
+            "correct_answer": "It prevents unauthorised access if unattended or stolen",
+            "explanation": "Locks reduce opportunistic access and protect local data."
+          }
+        ],
+        "level_2": [
+          {
+            "id": "M5-L2-Q1",
+            "info": "Network segmentation separates systems into zones to limit attacker movement.",
+            "question": "What is the main advantage of network segmentation?",
+            "options": [
+              "It removes need for patching",
+              "It limits lateral movement after compromise",
+              "It increases phishing emails",
+              "It disables monitoring"
+            ],
+            "correct_answer": "It limits lateral movement after compromise",
+            "explanation": "Segmentation reduces blast radius by restricting movement."
+          },
+          {
+            "id": "M5-L2-Q2",
+            "info": "DNS determines where domains resolve; manipulation can redirect users to malicious sites.",
+            "question": "Why is DNS security important?",
+            "options": [
+              "DNS is unrelated to security",
+              "DNS affects where users are directed on the internet",
+              "DNS prevents malware",
+              "DNS replaces encryption"
+            ],
+            "correct_answer": "DNS affects where users are directed on the internet",
+            "explanation": "If DNS is manipulated, users may be redirected to attacker-controlled sites."
+          },
+          {
+            "id": "M5-L2-Q3",
+            "info": "MDM enforces device policies and can remotely wipe lost devices.",
+            "question": "Which capability is commonly provided by MDM?",
+            "options": [
+              "Creating phishing emails",
+              "Remote wipe and policy enforcement",
+              "Disabling encryption",
+              "Avoiding password policies"
+            ],
+            "correct_answer": "Remote wipe and policy enforcement",
+            "explanation": "MDM improves control and reduces risk for mobile endpoints."
+          },
+          {
+            "id": "M5-L2-Q4",
+            "info": "Secure configuration includes disabling unnecessary services and enabling automatic updates.",
+            "question": "Which is a secure configuration practice for endpoints?",
+            "options": [
+              "Enable all services",
+              "Disable unused services and enable automatic updates",
+              "Share local admin passwords",
+              "Turn off logging"
+            ],
+            "correct_answer": "Disable unused services and enable automatic updates",
+            "explanation": "Hardening reduces exposure and keeps patches current."
+          },
+          {
+            "id": "M5-L2-Q5",
+            "info": "Bluetooth can be abused if left discoverable and paired with unknown devices.",
+            "question": "What is a safer practice for Bluetooth on work devices?",
+            "options": [
+              "Always discoverable",
+              "Disable when not needed",
+              "Pair with unknown devices",
+              "Share pairing codes publicly"
+            ],
+            "correct_answer": "Disable when not needed",
+            "explanation": "Reducing wireless exposure lowers attack opportunities."
+          }
+        ],
+        "level_3": [
+          {
+            "id": "M5-L3-Q1",
+            "info": "Zero Trust assumes no implicit trust; access is verified continuously based on identity and context.",
+            "question": "Which statement best reflects a Zero Trust approach?",
+            "options": [
+              "Trust internal networks by default",
+              "Verify explicitly and apply least privilege",
+              "Disable MFA",
+              "Allow broad access to reduce friction"
+            ],
+            "correct_answer": "Verify explicitly and apply least privilege",
+            "explanation": "Zero Trust emphasises continuous verification and minimal access."
+          },
+          {
+            "id": "M5-L3-Q2",
+            "info": "Bypassing TLS warnings can allow interception by attackers (man-in-the-middle).",
+            "question": "What is a risk of ignoring a browser certificate warning?",
+            "options": [
+              "Only slower speed",
+              "Potential man-in-the-middle attack",
+              "Automatic encryption upgrade",
+              "Improved privacy"
+            ],
+            "correct_answer": "Potential man-in-the-middle attack",
+            "explanation": "Certificate warnings may indicate interception or impostor sites."
+          },
+          {
+            "id": "M5-L3-Q3",
+            "info": "A VPN encrypts traffic to a trusted endpoint but does not verify the legitimacy of websites.",
+            "question": "Which statement about VPNs is most accurate?",
+            "options": [
+              "A VPN prevents all phishing",
+              "A VPN encrypts traffic but you still must verify links/domains",
+              "A VPN replaces MFA",
+              "A VPN eliminates malware"
+            ],
+            "correct_answer": "A VPN encrypts traffic but you still must verify links/domains",
+            "explanation": "Transport encryption does not remove social engineering risks."
+          },
+          {
+            "id": "M5-L3-Q4",
+            "info": "Wi‑Fi security standards: WPA2/WPA3 are stronger than WEP/open networks.",
+            "question": "Which Wi‑Fi configuration is strongest?",
+            "options": [
+              "Open network",
+              "WEP",
+              "WPA2/WPA3 with strong passphrase",
+              "Hidden SSID with no password"
+            ],
+            "correct_answer": "WPA2/WPA3 with strong passphrase",
+            "explanation": "Modern Wi‑Fi encryption reduces eavesdropping and unauthorised access."
+          },
+          {
+            "id": "M5-L3-Q5",
+            "info": "Centralised logging supports detection and investigation across multiple systems.",
+            "question": "Why is centralised logging valuable in security operations?",
+            "options": [
+              "It prevents all attacks",
+              "It enables detection and investigation across systems",
+              "It replaces encryption",
+              "It removes need for policies"
+            ],
+            "correct_answer": "It enables detection and investigation across systems",
+            "explanation": "Aggregating logs helps correlate events and speed investigations."
+          }
+        ]
+      }
+    },
+    {
+      "module_id": "M6",
+      "module_name": "Data Protection and Privacy",
+      "levels": {
+        "level_1": [
+          {
+            "id": "M6-L1-Q1",
+            "info": "Personal data can identify an individual (e.g., name, email, phone number).",
+            "question": "Which item is personal data?",
+            "options": [
+              "Employee email address",
+              "Office postcode",
+              "Company logo",
+              "Public website homepage"
+            ],
+            "correct_answer": "Employee email address",
+            "explanation": "Email addresses can identify individuals and must be protected."
+          },
+          {
+            "id": "M6-L1-Q2",
+            "info": "Sensitive data should be shared only through approved secure channels with access controls.",
+            "question": "Which is the best way to share sensitive files internally?",
+            "options": [
+              "Send via personal email",
+              "Use approved secure sharing with access controls",
+              "Post in a public channel",
+              "Upload to unknown file sharing"
+            ],
+            "correct_answer": "Use approved secure sharing with access controls",
+            "explanation": "Approved tools provide access control, encryption, and auditing."
+          },
+          {
+            "id": "M6-L1-Q3",
+            "info": "Data minimisation means collecting only what is necessary.",
+            "question": "What does data minimisation mean?",
+            "options": [
+              "Collect as much as possible",
+              "Collect only the data needed for the task",
+              "Never delete data",
+              "Share data widely"
+            ],
+            "correct_answer": "Collect only the data needed for the task",
+            "explanation": "Minimisation reduces exposure and supports privacy."
+          },
+          {
+            "id": "M6-L1-Q4",
+            "info": "Encryption makes data unreadable without the key.",
+            "question": "What is the main purpose of encryption?",
+            "options": [
+              "Speeding downloads",
+              "Making data unreadable without the key",
+              "Removing malware",
+              "Preventing phishing"
+            ],
+            "correct_answer": "Making data unreadable without the key",
+            "explanation": "Encryption protects confidentiality in storage and transit."
+          },
+          {
+            "id": "M6-L1-Q5",
+            "info": "Secure disposal prevents recovery of data from old devices.",
+            "question": "Which is a secure practice for disposing of old storage devices?",
+            "options": [
+              "Throw in general waste",
+              "Sell without wiping",
+              "Use approved secure wipe or destruction process",
+              "Leave in public area"
+            ],
+            "correct_answer": "Use approved secure wipe or destruction process",
+            "explanation": "Secure wipe/destruction prevents data recovery."
+          }
+        ],
+        "level_2": [
+          {
+            "id": "M6-L2-Q1",
+            "info": "Role-based access control (RBAC) grants access based on job roles.",
+            "question": "Which control best enforces least privilege for sensitive files?",
+            "options": [
+              "Sharing a single link with everyone",
+              "Role-based access with restricted permissions",
+              "Posting passwords in chat",
+              "Disabling auditing"
+            ],
+            "correct_answer": "Role-based access with restricted permissions",
+            "explanation": "RBAC limits exposure by restricting who can access sensitive data."
+          },
+          {
+            "id": "M6-L2-Q2",
+            "info": "Data classification helps determine storage and sharing requirements.",
+            "question": "Why is data classification important?",
+            "options": [
+              "It makes files bigger",
+              "It determines how data should be stored and shared",
+              "It replaces encryption",
+              "It prevents all breaches automatically"
+            ],
+            "correct_answer": "It determines how data should be stored and shared",
+            "explanation": "Classification informs the right controls and handling."
+          },
+          {
+            "id": "M6-L2-Q3",
+            "info": "Offline or immutable backups reduce the chance ransomware can encrypt backup copies.",
+            "question": "Which backup practice improves resilience against ransomware?",
+            "options": [
+              "Only one backup on the same device",
+              "Immutable/offline backups with restore testing",
+              "No backups",
+              "Sharing backups publicly"
+            ],
+            "correct_answer": "Immutable/offline backups with restore testing",
+            "explanation": "Separation and immutability protect backups from encryption by attackers."
+          },
+          {
+            "id": "M6-L2-Q4",
+            "info": "Retention policies define how long data is kept and when it is disposed securely.",
+            "question": "What is the purpose of a data retention policy?",
+            "options": [
+              "Keep data forever",
+              "Define retention period and secure disposal rules",
+              "Share data with third parties",
+              "Disable security controls"
+            ],
+            "correct_answer": "Define retention period and secure disposal rules",
+            "explanation": "Retention reduces unnecessary exposure and supports compliance."
+          },
+          {
+            "id": "M6-L2-Q5",
+            "info": "Restricted sharing requires authentication and limiting access to specific people/groups.",
+            "question": "Which is the safest way to share an internal document link?",
+            "options": [
+              "Anyone with the link",
+              "Restrict to specific users/groups and require authentication",
+              "Post publicly",
+              "Remove access logs"
+            ],
+            "correct_answer": "Restrict to specific users/groups and require authentication",
+            "explanation": "Authentication and restricted access reduce accidental exposure."
+          }
+        ],
+        "level_3": [
+          {
+            "id": "M6-L3-Q1",
+            "info": "Privacy by design builds privacy controls into systems from the start.",
+            "question": "What is an example of privacy by design?",
+            "options": [
+              "Storing all messages permanently",
+              "Collecting unnecessary fields",
+              "Redacting PII before sending data to external services",
+              "Sharing data without consent"
+            ],
+            "correct_answer": "Redacting PII before sending data to external services",
+            "explanation": "Reducing exposure before external processing is a strong privacy control."
+          },
+          {
+            "id": "M6-L3-Q2",
+            "info": "Breach impact assessment helps determine response actions and notification requirements.",
+            "question": "Why is breach impact assessment important?",
+            "options": [
+              "Only for marketing",
+              "Determines response and notification obligations",
+              "Eliminates need for incident response",
+              "Prevents phishing"
+            ],
+            "correct_answer": "Determines response and notification obligations",
+            "explanation": "Impact informs legal, regulatory, and operational actions."
+          },
+          {
+            "id": "M6-L3-Q3",
+            "info": "Tokenisation replaces sensitive values with tokens; encryption protects data but retains original value recoverable with a key.",
+            "question": "When is tokenisation especially useful?",
+            "options": [
+              "Printing passwords",
+              "Storing identifiers without exposing original values",
+              "Disabling access controls",
+              "Avoiding backups"
+            ],
+            "correct_answer": "Storing identifiers without exposing original values",
+            "explanation": "Tokenisation reduces exposure by not storing the original sensitive value."
+          },
+          {
+            "id": "M6-L3-Q4",
+            "info": "Privacy-preserving logs avoid capturing unnecessary sensitive content.",
+            "question": "Which logging practice best supports privacy?",
+            "options": [
+              "Log full passwords",
+              "Log message content permanently",
+              "Log minimal metadata and redact PII",
+              "Disable logging completely"
+            ],
+            "correct_answer": "Log minimal metadata and redact PII",
+            "explanation": "Redaction supports privacy while maintaining operational value."
+          },
+          {
+            "id": "M6-L3-Q5",
+            "info": "Unusual access patterns can indicate misuse or compromise.",
+            "question": "Which signal most strongly suggests suspicious access to sensitive records?",
+            "options": [
+              "Normal access by the usual team",
+              "Large volume access by a user who normally does not access that dataset",
+              "Access with MFA enabled",
+              "Access during office hours"
+            ],
+            "correct_answer": "Large volume access by a user who normally does not access that dataset",
+            "explanation": "Anomalous access volume/context is a key indicator."
+          }
+        ]
+      }
+    },
+    {
+      "module_id": "M7",
+      "module_name": "Security Policies, Compliance, and Governance",
+      "levels": {
+        "level_1": [
+          {
+            "id": "M7-L1-Q1",
+            "info": "Security policies define rules and responsibilities for protecting information assets.",
+            "question": "What is the purpose of an information security policy?",
+            "options": [
+              "Increase battery life",
+              "Define rules and responsibilities for protecting information",
+              "Replace antivirus",
+              "Create marketing content"
+            ],
+            "correct_answer": "Define rules and responsibilities for protecting information",
+            "explanation": "Policies set expectations and guide secure behaviour."
+          },
+          {
+            "id": "M7-L1-Q2",
+            "info": "Acceptable Use Policies typically prohibit risky practices like password sharing.",
+            "question": "Which action is most likely prohibited by an Acceptable Use Policy?",
+            "options": [
+              "Using approved tools for work",
+              "Sharing passwords with colleagues",
+              "Locking your screen",
+              "Reporting phishing"
+            ],
+            "correct_answer": "Sharing passwords with colleagues",
+            "explanation": "Password sharing undermines accountability and increases risk."
+          },
+          {
+            "id": "M7-L1-Q3",
+            "info": "Compliance means meeting legal, regulatory, or contractual requirements.",
+            "question": "What does compliance mean in cybersecurity?",
+            "options": [
+              "Guaranteed security",
+              "Meeting required standards and obligations",
+              "Disabling all controls",
+              "Avoiding documentation"
+            ],
+            "correct_answer": "Meeting required standards and obligations",
+            "explanation": "Compliance is about meeting obligations; it does not guarantee no breaches."
+          },
+          {
+            "id": "M7-L1-Q4",
+            "info": "Governance ensures oversight and accountability for security decisions.",
+            "question": "What is governance in cybersecurity?",
+            "options": [
+              "Choosing wallpapers",
+              "Oversight and accountability for security decisions",
+              "Removing logging",
+              "Ignoring risks"
+            ],
+            "correct_answer": "Oversight and accountability for security decisions",
+            "explanation": "Governance sets responsibility for policy and risk decisions."
+          },
+          {
+            "id": "M7-L1-Q5",
+            "info": "Awareness training reduces human error and improves safe behaviours.",
+            "question": "Why is security awareness training important?",
+            "options": [
+              "It replaces MFA",
+              "It reduces user-driven incidents like phishing",
+              "It prevents all malware automatically",
+              "It removes need for policies"
+            ],
+            "correct_answer": "It reduces user-driven incidents like phishing",
+            "explanation": "Training improves recognition of threats and safe actions."
+          }
+        ],
+        "level_2": [
+          {
+            "id": "M7-L2-Q1",
+            "info": "Policies state high-level rules; procedures provide step-by-step implementation guidance.",
+            "question": "Which statement best describes policy vs procedure?",
+            "options": [
+              "Procedures set intent; policy is step-by-step",
+              "Policy sets rules; procedures describe how to implement them",
+              "They are identical",
+              "Neither is needed if tools exist"
+            ],
+            "correct_answer": "Policy sets rules; procedures describe how to implement them",
+            "explanation": "Policies define what; procedures define how."
+          },
+          {
+            "id": "M7-L2-Q2",
+            "info": "Audit evidence shows controls are operating (e.g., logs, reports, training completion).",
+            "question": "Which is an example of audit evidence for access control?",
+            "options": [
+              "Motivational poster",
+              "System access logs showing who accessed sensitive data",
+              "Email signature",
+              "Desktop wallpaper"
+            ],
+            "correct_answer": "System access logs showing who accessed sensitive data",
+            "explanation": "Logs provide objective evidence of access events."
+          },
+          {
+            "id": "M7-L2-Q3",
+            "info": "Segregation of duties reduces fraud by ensuring one person cannot complete an entire sensitive process alone.",
+            "question": "What is an example of segregation of duties?",
+            "options": [
+              "One person requests and approves payments",
+              "Requestor and approver are different people",
+              "Everyone can approve changes",
+              "No approvals are needed"
+            ],
+            "correct_answer": "Requestor and approver are different people",
+            "explanation": "Separating duties reduces abuse and errors."
+          },
+          {
+            "id": "M7-L2-Q4",
+            "info": "Risk acceptance should be documented and approved by accountable owners.",
+            "question": "Who should approve risk acceptance for a significant security risk?",
+            "options": [
+              "Any employee",
+              "Accountable risk owner/senior management",
+              "External attackers",
+              "Only new hires"
+            ],
+            "correct_answer": "Accountable risk owner/senior management",
+            "explanation": "Risk acceptance is a business decision owned by accountable leaders."
+          },
+          {
+            "id": "M7-L2-Q5",
+            "info": "Policies must be communicated and reinforced for adoption.",
+            "question": "Which practice helps ensure policies are followed?",
+            "options": [
+              "Keeping policies secret",
+              "Regular training and acknowledgement",
+              "No enforcement",
+              "Removing incident reporting"
+            ],
+            "correct_answer": "Regular training and acknowledgement",
+            "explanation": "Awareness and reinforcement improve compliance."
+          }
+        ],
+        "level_3": [
+          {
+            "id": "M7-L3-Q1",
+            "info": "Third-party risk management assesses supplier security because vendors can introduce risk.",
+            "question": "Why is third-party risk management important?",
+            "options": [
+              "Vendors never get attacked",
+              "Suppliers can be a pathway into your systems and data",
+              "It replaces patching",
+              "It eliminates phishing"
+            ],
+            "correct_answer": "Suppliers can be a pathway into your systems and data",
+            "explanation": "Supply-chain compromises are a common risk."
+          },
+          {
+            "id": "M7-L3-Q2",
+            "info": "Policy exceptions should be governed with expiry dates and compensating controls.",
+            "question": "What is good practice for policy exceptions?",
+            "options": [
+              "Allow indefinitely without documentation",
+              "Document, approve, set expiry date, apply compensating controls",
+              "Let users decide",
+              "Remove the policy"
+            ],
+            "correct_answer": "Document, approve, set expiry date, apply compensating controls",
+            "explanation": "Governed exceptions reduce unmanaged risk exposure."
+          },
+          {
+            "id": "M7-L3-Q3",
+            "info": "Governance reporting often includes risk register and control effectiveness updates.",
+            "question": "What is a common governance output from security leadership?",
+            "options": [
+              "Daily memes",
+              "Risk register reporting and control status updates",
+              "Disabling monitoring",
+              "Ignoring audit findings"
+            ],
+            "correct_answer": "Risk register reporting and control status updates",
+            "explanation": "Leadership communicates security posture and progress on controls."
+          },
+          {
+            "id": "M7-L3-Q4",
+            "info": "Frameworks provide structure to assess and improve security maturity.",
+            "question": "What is a benefit of adopting a recognised security framework?",
+            "options": [
+              "Guarantees no breaches",
+              "Provides a structured approach to improve controls",
+              "Removes need for training",
+              "Disables audits"
+            ],
+            "correct_answer": "Provides a structured approach to improve controls",
+            "explanation": "Frameworks help prioritise and measure security improvements."
+          },
+          {
+            "id": "M7-L3-Q5",
+            "info": "Meaningful metrics measure outcomes (risk reduction), not only activity (documents created).",
+            "question": "Which is the best example of a meaningful security KPI?",
+            "options": [
+              "Number of policies written",
+              "Phishing training completion rate and reduced click rate",
+              "Number of emails sent",
+              "Number of meetings held"
+            ],
+            "correct_answer": "Phishing training completion rate and reduced click rate",
+            "explanation": "Outcome-based KPIs show whether risk and behaviour are improving."
+          }
+        ]
+      }
+    },
+    {
+      "module_id": "M8",
+      "module_name": "Incident Response and Security Operations",
+      "levels": {
+        "level_1": [
+          {
+            "id": "M8-L1-Q1",
+            "info": "A security incident threatens confidentiality, integrity, or availability (e.g., malware, data leak).",
+            "question": "What is the first step if you suspect a security incident at work?",
+            "options": [
+              "Hide it",
+              "Report it via the official process",
+              "Post it publicly",
+              "Ignore it"
+            ],
+            "correct_answer": "Report it via the official process",
+            "explanation": "Early reporting enables containment and reduces impact."
+          },
+          {
+            "id": "M8-L1-Q2",
+            "info": "Containment stops an incident from spreading or worsening.",
+            "question": "What does containment mean in incident response?",
+            "options": [
+              "Deleting all logs",
+              "Stopping the incident from spreading",
+              "Paying ransom immediately",
+              "Shutting down all computers permanently"
+            ],
+            "correct_answer": "Stopping the incident from spreading",
+            "explanation": "Containment limits scope while investigation continues."
+          },
+          {
+            "id": "M8-L1-Q3",
+            "info": "Logs capture events and are key for investigation and timelines.",
+            "question": "Why are logs important during an incident?",
+            "options": [
+              "They slow computers",
+              "They help identify what happened and when",
+              "They replace backups",
+              "They prevent phishing"
+            ],
+            "correct_answer": "They help identify what happened and when",
+            "explanation": "Logs support root-cause analysis and impact assessment."
+          },
+          {
+            "id": "M8-L1-Q4",
+            "info": "Phishing reporting helps security teams block malicious senders and warn others.",
+            "question": "What is a benefit of reporting phishing emails?",
+            "options": [
+              "It increases spam",
+              "It helps block similar attacks for others",
+              "It disables your account",
+              "It guarantees no future attacks"
+            ],
+            "correct_answer": "It helps block similar attacks for others",
+            "explanation": "Reporting enables rapid protection actions across the organisation."
+          },
+          {
+            "id": "M8-L1-Q5",
+            "info": "Backups are valuable only if restores work as expected.",
+            "question": "Why should backup restoration be tested?",
+            "options": [
+              "To delete backups faster",
+              "To ensure backups can be restored during incidents",
+              "To reduce encryption",
+              "To increase malware"
+            ],
+            "correct_answer": "To ensure backups can be restored during incidents",
+            "explanation": "Testing validates recovery capability under pressure."
+          }
+        ],
+        "level_2": [
+          {
+            "id": "M8-L2-Q1",
+            "info": "Incident response phases often include: preparation, identification, containment, eradication, recovery, lessons learned.",
+            "question": "Which phase focuses on removing the cause (e.g., removing malware, closing exploited vulnerability)?",
+            "options": [
+              "Preparation",
+              "Eradication",
+              "Identification",
+              "Lessons learned"
+            ],
+            "correct_answer": "Eradication",
+            "explanation": "Eradication removes the threat and closes exploited paths."
+          },
+          {
+            "id": "M8-L2-Q2",
+            "info": "Triage prioritises alerts based on severity and context.",
+            "question": "What is triage in security operations?",
+            "options": [
+              "Ignoring alerts",
+              "Prioritising and investigating alerts based on severity/context",
+              "Deleting logs",
+              "Disabling monitoring tools"
+            ],
+            "correct_answer": "Prioritising and investigating alerts based on severity/context",
+            "explanation": "Triage ensures the most critical events are handled first."
+          },
+          {
+            "id": "M8-L2-Q3",
+            "info": "Indicators of Compromise (IOCs) include malicious IPs, domains, file hashes, or suspicious processes.",
+            "question": "Which is an example of an IOC?",
+            "options": [
+              "Company mission statement",
+              "Known malicious file hash",
+              "Email signature",
+              "Desk location"
+            ],
+            "correct_answer": "Known malicious file hash",
+            "explanation": "Hashes are used to identify known malicious files."
+          },
+          {
+            "id": "M8-L2-Q4",
+            "info": "Segmentation limits attacker movement and helps contain incidents to a zone.",
+            "question": "How does network segmentation help incident response?",
+            "options": [
+              "It increases malware spread",
+              "It limits attacker movement across zones",
+              "It disables logging",
+              "It prevents all phishing"
+            ],
+            "correct_answer": "It limits attacker movement across zones",
+            "explanation": "Segmentation reduces blast radius and supports containment."
+          },
+          {
+            "id": "M8-L2-Q5",
+            "info": "Lessons learned reviews identify improvements to prevent recurrence.",
+            "question": "What is the purpose of a ‘lessons learned’ review after an incident?",
+            "options": [
+              "Assign blame only",
+              "Improve controls, processes, and readiness",
+              "Delete evidence",
+              "Ignore root cause"
+            ],
+            "correct_answer": "Improve controls, processes, and readiness",
+            "explanation": "Post-incident reviews drive corrective actions and maturity."
+          }
+        ],
+        "level_3": [
+          {
+            "id": "M8-L3-Q1",
+            "info": "Incident communications must be controlled for accuracy, confidentiality, and legal/contractual obligations.",
+            "question": "Why should incident communications follow an approved process?",
+            "options": [
+              "To share details publicly",
+              "To ensure consistent, accurate, and legally safe messaging",
+              "To delay response",
+              "To avoid documentation"
+            ],
+            "correct_answer": "To ensure consistent, accurate, and legally safe messaging",
+            "explanation": "Controlled communication reduces misinformation and legal/brand risk."
+          },
+          {
+            "id": "M8-L3-Q2",
+            "info": "Threat hunting proactively searches for hidden compromises beyond alerts.",
+            "question": "What is threat hunting?",
+            "options": [
+              "Waiting for alerts only",
+              "Proactively searching for suspicious behaviour and hidden threats",
+              "Deleting logs",
+              "Disabling EDR tools"
+            ],
+            "correct_answer": "Proactively searching for suspicious behaviour and hidden threats",
+            "explanation": "Hunting complements alerting by finding subtle or unknown threats."
+          },
+          {
+            "id": "M8-L3-Q3",
+            "info": "Recovery should follow remediation; restoring before patching can reintroduce compromise.",
+            "question": "Which practice reduces the risk of reinfection during recovery?",
+            "options": [
+              "Restore first, investigate later",
+              "Patch vulnerability and validate clean state before restoring services",
+              "Disable monitoring",
+              "Reuse compromised credentials"
+            ],
+            "correct_answer": "Patch vulnerability and validate clean state before restoring services",
+            "explanation": "Fix root cause and confirm systems are clean before returning to production."
+          },
+          {
+            "id": "M8-L3-Q4",
+            "info": "Forensics may require preserving evidence and maintaining chain of custody.",
+            "question": "What is good evidence handling practice during an incident?",
+            "options": [
+              "Delete logs to save space",
+              "Preserve logs and maintain chain of custody where required",
+              "Share evidence publicly",
+              "Overwrite disks immediately"
+            ],
+            "correct_answer": "Preserve logs and maintain chain of custody where required",
+            "explanation": "Evidence integrity supports accurate investigation and accountability."
+          },
+          {
+            "id": "M8-L3-Q5",
+            "info": "SOAR automates repeatable response steps and improves consistency.",
+            "question": "What is a typical benefit of SOAR in security operations?",
+            "options": [
+              "It replaces humans entirely",
+              "It automates repeatable response steps and improves consistency",
+              "It disables alerts",
+              "It reduces visibility"
+            ],
+            "correct_answer": "It automates repeatable response steps and improves consistency",
+            "explanation": "Automation speeds response and reduces manual workload."
+          }
+        ]
+      }
+    }
+  ]
+}

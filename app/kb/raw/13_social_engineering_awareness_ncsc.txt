@@ -1,0 +1,16 @@
+Disclaimer: This content is for educational cybersecurity awareness only.
+It does not constitute official or legal policy advice.
+
+Title: Social Engineering – Recognise and Resist
+Citation: (NCSC, 2024)
+URL: https://www.ncsc.gov.uk/
+
+Summary:
+Attackers manipulate trust and authority to elicit actions or information. {cite} advises verifying identities through independent channels, using visitor controls to prevent tailgating, and challenging unusual requests—even from senior staff. Reporting attempts helps the organisation tune controls and raise awareness. Cultivate a positive reporting culture rather than blame.
+
+Tags: social_engineering,pretexting,baiting,tailgating,uk
+Audience: All employees
+
+Reflective prompts:
+- What would you do first in this situation, and why?
+- Which control or policy would most effectively reduce this risk in your context?

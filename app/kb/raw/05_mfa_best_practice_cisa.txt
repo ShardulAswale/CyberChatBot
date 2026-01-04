@@ -1,0 +1,16 @@
+Disclaimer: This content is for educational cybersecurity awareness only.
+It does not constitute official or legal policy advice.
+
+Title: Multi‑Factor Authentication – Why and How
+Citation: (CISA, 2023)
+URL: https://www.cisa.gov/resources-tools/resources/implementing-strong-authentication
+
+Summary:
+MFA adds a second factor (something you have/are) to your password (something you know). {cite} highlights that phishing‑resistant MFA (FIDO2/security keys or platform authenticators) is preferred over SMS codes. Enrol multiple factors to avoid lockouts, secure recovery processes, and monitor for unusual sign‑in prompts. Educate users never to approve unexpected push notifications and to report any suspicious prompts immediately.
+
+Tags: mfa,authentication,account_security,controls
+Audience: All employees
+
+Reflective prompts:
+- What would you do first in this situation, and why?
+- Which control or policy would most effectively reduce this risk in your context?

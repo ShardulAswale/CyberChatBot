@@ -1,0 +1,16 @@
+Disclaimer: This content is for educational cybersecurity awareness only.
+It does not constitute official or legal policy advice.
+
+Title: Shadow IT – Risks and Controls
+Citation: (ENISA, 2023)
+URL: https://www.enisa.europa.eu/
+
+Summary:
+Shadow IT refers to unapproved tools or services used outside established governance. {cite} recommends inventorying cloud usage, establishing an approval process, conducting DPIAs where appropriate, and offering secure, user‑friendly alternatives. Communication is key: teams often choose shadow tools to overcome friction—address needs and provide sanctioned solutions rather than relying solely on prohibition.
+
+Tags: shadow_it,governance,saas,third_party,eu
+Audience: Managers, IT teams
+
+Reflective prompts:
+- What would you do first in this situation, and why?
+- Which control or policy would most effectively reduce this risk in your context?
