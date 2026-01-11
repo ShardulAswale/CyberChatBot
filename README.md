@@ -7,9 +7,18 @@ FastAPI chatbot for Slack, Teams, and web that answers cybersecurity-awareness q
 1) Create a virtual env and install deps
 ```bash
 python -m venv .venv
+```
+Linux/macOS
+```bash
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+Windows (PowerShell)
+```powershell
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
 2) Configure `.env`
