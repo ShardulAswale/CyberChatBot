@@ -438,7 +438,7 @@ async def web_message(payload: dict):
     return JSONResponse({"user": user, "message": formatted, "request_id": response.request_id})
 
 
-@app.post("/teams/webhook")
+@app.post("/teams/webhook") 
 async def teams_webhook(req: Request):
     payload = await req.json()
     text = (payload.get("text") or "").strip()

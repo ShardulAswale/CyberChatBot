@@ -121,7 +121,7 @@ Thumbs.db
 *.orig
 *.patch
 
-kb.zip
+kb.zip        
 *.zip
 .venv/
 __pycache__/
